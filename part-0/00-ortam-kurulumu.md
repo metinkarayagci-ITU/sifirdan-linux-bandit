@@ -51,7 +51,7 @@ Windows Terminal'de (WSL) metin seçiliyken Ctrl+C kopyalar, Ctrl+V yapıştır�
 
 ## Bu repodaki örnekler hakkında
 
-Ekran görüntüleri Kali Linux (WSL) üzerinde, Bash ile ve `metin` kullanıcısıyla alındı. Bu yüzden prompt görüntülerde iki satırdır:
+Ekran görüntülerini Kali Linux (WSL) üzerinde, Bash ile kendi `metin` kullanıcımla aldım. Bu yüzden prompt görüntülerde iki satırdır:
 
 ```
 ┌──(metin㉿kali)-[~]

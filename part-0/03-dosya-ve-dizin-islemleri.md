@@ -4,7 +4,7 @@
 
 Dosyaları ve dizinleri yalnızca görüntülemeyiz. Gerektiğinde oluşturabilir, kopyalayabilir, taşıyabilir, yeniden adlandırabilir veya silebiliriz. Buradaki amaç bu komutların bütün seçeneklerini bir anda öğrenmek değil; dosya sistemiyle çalışırken temel işlemlerin terminal üzerinden de doğrudan yapılabildiğini görmek.
 
-Aşağıdaki çıktılar Kali'de, geçici bir dizinde alındı.
+Aşağıdaki çıktıları Kali'de, geçici bir dizinde aldım.
 
 ## mkdir: dizin oluşturmak
 

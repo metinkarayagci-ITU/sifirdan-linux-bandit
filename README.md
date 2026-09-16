@@ -23,6 +23,6 @@ Medium'da bir bölüm ilk okumada oturduysa yola devam ederiz; oturmadıysa böl
 
 ## Örnekler hakkında
 
-- Ekran görüntüleri ve metin çıktıları **Kali Linux (WSL)** üzerinde, **Bash** ile ve `metin` kullanıcısıyla alındı. Kendi sistemimizde kullanıcı adı, makine adı, tarih ve bazı sayılar farklı olacaktır.
+- Ekran görüntülerini ve metin çıktılarını **Kali Linux (WSL)** üzerinde, **Bash** ile kendi `metin` kullanıcımla aldım. Kendi sistemimizde kullanıcı adı, makine adı, tarih ve bazı sayılar farklı olacaktır.
 - Kod bloklarında `→` işaretinden sonrası açıklamadır, terminale yazılmaz.
 - Bandit seviyelerinin **parolaları bu repoda yer almaz**; her parola, seviyeyi çözerek bulunur.

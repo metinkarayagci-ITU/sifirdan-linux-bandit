@@ -33,7 +33,7 @@ ssh -p 2222 kullanici@sunucu
 ssh: connect to host localhost port 2222: Connection refused
 ```
 
-O adreste, o portta dinleyen bir SSH hizmeti yok: port numarası yanlış olabilir ya da hizmet kapalıdır. (Bu çıktı, SSH sunucusu olmayan bir makinede `ssh -p 2222 localhost` ile alındı.)
+O adreste, o portta dinleyen bir SSH hizmeti yok: port numarası yanlış olabilir ya da hizmet kapalıdır. (Bu çıktıyı, SSH sunucusu olmayan bir makinede `ssh -p 2222 localhost` ile aldım.)
 
 ```
 Permission denied, please try again.
