@@ -12,6 +12,8 @@ Oyun seviyelerden oluşur. Her seviyede bir sonraki seviyenin **parolasını** b
 2. Bağlandıktan sonra sistemi inceleyerek **bir sonraki parolayı buluruz** — bir dosyanın içinde, gizli bir yerde ya da bir komutun çıktısında.
 3. Bulduğumuz parolayla **bir sonraki kullanıcıya** yine SSH ile bağlanırız.
 
+![Bandit'in oynanış döngüsü: SSH ile bağlan → sistemi incele ve parolayı bul → sonraki kullanıcıya bağlan; her seviyede tekrar](img/oynanis-dongusu.png)
+
 Sunucu bilgileri her seviyede aynıdır:
 
 ```
