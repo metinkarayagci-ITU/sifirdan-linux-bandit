@@ -25,7 +25,7 @@ Her sayfa küçük ve tek konuludur; sırayla okunacak biçimde birbirine bağl�
 | Part | Konu | Durum |
 |---|---|---|
 | **0** | [Linux / Terminal Temelleri](part-0/README.md) | hazır |
-| 1 | Bandit Level 0–4 | hazırlanıyor |
+| **1** | [Bandit Level 0–4](part-1/README.md) | hazır |
 | 2 | Bandit Level 5–9 | — |
 | 3 | Bandit Level 10–15 | — |
 | 4 | Bandit Level 16–21 | — |
