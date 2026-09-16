@@ -1,6 +1,6 @@
 # 02 · Dosya sistemi ve gezinme
 
-⬅ Medium'daki bölüm: **Dosya sistemi: nerede olduğumuzu bilmek** · [Part 0 içindekiler](README.md)
+[Başlangıç](../README.md) · [Part 0 içindekiler](README.md)
 
 ## Path: absolute ve relative
 
@@ -116,3 +116,9 @@ test.txt      → ad
 /var         → değişen veriler; ör. /var/log altında kayıtlar
 /usr/bin     → programların çoğu (ls, cat, grep...)
 ```
+
+<!-- part0-altnav -->
+
+---
+
+← [01 · Terminal, shell ve komut yapısı](01-terminal-shell-komut-yapisi.md) · [Part 0 içindekiler](README.md) · [03 · Dosya ve dizin işlemleri](03-dosya-ve-dizin-islemleri.md) →

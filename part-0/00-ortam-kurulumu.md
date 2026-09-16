@@ -1,6 +1,6 @@
 # 00 · Ortam kurulumu
 
-⬅ Medium'daki bölüm: **Başlamadan önce: neye ihtiyacımız var?** · [Part 0 içindekiler](README.md)
+[Başlangıç](../README.md) · [Part 0 içindekiler](README.md)
 
 Part 0'daki örnekleri denemek için bir Linux terminaline, Part 1'den itibaren de bir SSH istemcisine ihtiyacımız var.
 
@@ -59,3 +59,9 @@ Ekran görüntülerini Kali Linux (WSL) üzerinde, Bash ile kendi `metin` kullan
 ```
 
 Kendi sistemimizde kullanıcı adı, makine adı ve prompt'un görünümü farklı olacaktır; taşıdığı bilgi aynıdır (bkz. [02 · Dosya sistemi ve gezinme](02-dosya-sistemi-ve-gezinme.md)).
+
+<!-- part0-altnav -->
+
+---
+
+[Part 0 içindekiler](README.md) · [01 · Terminal, shell ve komut yapısı](01-terminal-shell-komut-yapisi.md) →

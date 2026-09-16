@@ -1,6 +1,6 @@
 # 09 · SSH
 
-⬅ Medium'daki bölüm: **SSH: uzak bir sisteme bağlanmak** · [Part 0 içindekiler](README.md)
+[Başlangıç](../README.md) · [Part 0 içindekiler](README.md)
 
 SSH ile bağlandığımızda komutları artık kendi bilgisayarımızda değil, uzak makinedeki oturumda çalıştırırız. Bağlantı kurduğumuz anda terminal yine aynı terminal gibi görünür; fakat arka tarafta artık farklı bir makineyle konuşuyoruz. Bu nedenle bir komut çalıştırmadan önce hangi sistemde olduğumuzu bilmek, terminal kullanımının temel alışkanlıklarından biridir.
 
@@ -56,3 +56,9 @@ Sunucuya hiç ulaşılamıyor: port yanlış olabilir ya da ağ bağlantıyı en
 ## Standart port ve -p
 
 SSH'ın standart portu 22'dir; `-p` yazmazsak 22'ye bağlanılır. Sunucu başka bir port kullanıyorsa `-p` ile belirtmek zorundayız. `ssh kullanici@sunucu -p 2222` yazılışı da çalışır (bkz. [01](01-terminal-shell-komut-yapisi.md)).
+
+<!-- part0-altnav -->
+
+---
+
+← [08 · grep ve find](08-grep-ve-find.md) · [Part 0 içindekiler](README.md) · [10 · Yardım ve hata mesajları](10-yardim-ve-hata-mesajlari.md) →

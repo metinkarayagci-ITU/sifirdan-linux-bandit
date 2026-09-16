@@ -1,6 +1,6 @@
 # 03 · Dosya ve dizin işlemleri
 
-⬅ Medium'daki bölüm: **Dosya ve dizinlerle temel işlemler** · [Part 0 içindekiler](README.md)
+[Başlangıç](../README.md) · [Part 0 içindekiler](README.md)
 
 Dosyaları ve dizinleri yalnızca görüntülemeyiz. Gerektiğinde oluşturabilir, kopyalayabilir, taşıyabilir, yeniden adlandırabilir veya silebiliriz. Buradaki amaç bu komutların bütün seçeneklerini bir anda öğrenmek değil; dosya sistemiyle çalışırken temel işlemlerin terminal üzerinden de doğrudan yapılabildiğini görmek.
 
@@ -123,3 +123,9 @@ rm *.txt     → bulunduğumuz dizindeki bütün .txt dosyalarını siler
 ```
 
 `rm` ile joker karakter kullanmadan önce aynı deseni `ls` ile denemek, yanlış dosyaları silmemenin en kolay yoludur.
+
+<!-- part0-altnav -->
+
+---
+
+← [02 · Dosya sistemi ve gezinme](02-dosya-sistemi-ve-gezinme.md) · [Part 0 içindekiler](README.md) · [04 · Dosya içeriğini okumak](04-dosya-icerigini-okumak.md) →

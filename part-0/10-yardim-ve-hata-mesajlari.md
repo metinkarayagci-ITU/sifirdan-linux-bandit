@@ -1,6 +1,6 @@
 # 10 · Yardım ve hata mesajları
 
-⬅ Medium'daki bölüm: **Takıldığımızda: yardım almak ve hata mesajlarını okumak** · [Part 0 içindekiler](README.md)
+[Başlangıç](../README.md) · [Part 0 içindekiler](README.md)
 
 ## Üç yardım kaynağı
 
@@ -82,3 +82,9 @@ foo123: command not found
 (Kali'deki "komut bulunamadı" yardımcısı yüzünden son satırın başında `bash:` yok; başka sistemlerde `bash: foo123: command not found` biçiminde görünebilir.)
 
 ⚠ Aynı hata farklı dağıtımlarda farklı yazılabilir. Örneğin yeni coreutils kullanan Ubuntu 26.04'te geçersiz seçenek hatası `error: unexpected argument '-f' found` biçiminde çıkar. Kalıbı değil, anlamı okuruz.
+
+<!-- part0-altnav -->
+
+---
+
+← [09 · SSH](09-ssh.md) · [Part 0 içindekiler](README.md)

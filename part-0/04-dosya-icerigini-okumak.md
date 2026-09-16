@@ -1,6 +1,6 @@
 # 04 · Dosya içeriğini okumak
 
-⬅ Medium'daki bölüm: **Dosya içeriğini okumak** · [Part 0 içindekiler](README.md)
+[Başlangıç](../README.md) · [Part 0 içindekiler](README.md)
 
 ## cat
 
@@ -63,3 +63,9 @@ du -h /etc/services
 ```
 
 `du` diskte kaplanan alanı gösterir; `-h` bunu `K`, `M` gibi okunur birimlerle yazar. Bir dizine uygulandığında alt dizinleri de tek tek listeler.
+
+<!-- part0-altnav -->
+
+---
+
+← [03 · Dosya ve dizin işlemleri](03-dosya-ve-dizin-islemleri.md) · [Part 0 içindekiler](README.md) · [05 · Akışlar, pipe ve yönlendirme](05-akislar-pipe-yonlendirme.md) →

@@ -1,6 +1,6 @@
 # 08 · grep ve find
 
-⬅ Medium'daki bölüm: **Aramak: grep ve find** · [Part 0 içindekiler](README.md)
+[Başlangıç](../README.md) · [Part 0 içindekiler](README.md)
 
 ## grep: metin içinde aramak
 
@@ -117,3 +117,9 @@ find /etc -type f 2>/dev/null | grep "ssh"
 ```
 
 Burada tek bir program her şeyi yapmıyor: ilk araç dosyaları buluyor, ikinci araç gelen çıktının içinde `ssh` ifadesini arıyor. Dikkat: `grep` burada dosyaların **içinde** değil, `find`'ın ürettiği **dosya adı listesinde** arıyor.
+
+<!-- part0-altnav -->
+
+---
+
+← [07 · İzinler](07-izinler.md) · [Part 0 içindekiler](README.md) · [09 · SSH](09-ssh.md) →

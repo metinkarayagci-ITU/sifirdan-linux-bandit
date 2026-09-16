@@ -1,6 +1,6 @@
 # 07 · İzinler
 
-⬅ Medium'daki bölüm: **İzinler: dosyaya kim ne yapabilir?** · [Part 0 içindekiler](README.md)
+[Başlangıç](../README.md) · [Part 0 içindekiler](README.md)
 
 Linux'ta dosyaların yalnızca isimleri ve içerikleri yoktur. Kimlerin o dosyayı okuyabileceği, değiştirebileceği veya çalıştırabileceği de önemlidir. Bir dosyanın sahibi olabilir, bir gruba ait olabilir ve farklı kullanıcı kategorileri için farklı izinlere sahip olabilir.
 
@@ -88,3 +88,9 @@ ls -l betik.sh
 `u+x`: sahibe (**u**ser) çalıştırma (**x**) iznini ekle. Aynı kalıpla `g` (grup), `o` (diğerleri), `a` (hepsi); `+` ekler, `-` kaldırır: `chmod o-r dosya` diğerlerinin okuma iznini kaldırır.
 
 ⚠ WSL'de Windows diski (`/mnt/c/...`) üzerindeki dosyalarda izinler Linux'taki gibi davranmayabilir; denemeleri ev dizininde ya da `/tmp`'de yapalım.
+
+<!-- part0-altnav -->
+
+---
+
+← [06 · Dosya adları ve türleri](06-dosya-adlari-ve-turleri.md) · [Part 0 içindekiler](README.md) · [08 · grep ve find](08-grep-ve-find.md) →

@@ -1,6 +1,6 @@
 # 05 · Akışlar, pipe ve yönlendirme
 
-⬅ Medium'daki bölüm: **Girdi, çıktı ve hata akışları** · [Part 0 içindekiler](README.md)
+[Başlangıç](../README.md) · [Part 0 içindekiler](README.md)
 
 ## Üç akış
 
@@ -97,3 +97,9 @@ Pipe yalnız stdout'u taşır; stderr bir sonraki komuta gitmez, ekrana düşer.
 ## Küçük komutlarla büyük işler
 
 Linux araçlarının önemli özelliklerinden biri, çoğunun tek bir görevi nispeten sade biçimde yapmasıdır: `ls` listelemede, `grep` metin aramada, `find` dosya bulmada iyidir; `less` çıktıyı incelemeyi kolaylaştırır. Bunları pipe ile birleştirdiğimizde çok daha güçlü işlemler ortaya çıkar. Yani terminalde güçlü olmanın önemli bir kısmı tek tek "güçlü komutlar" bulmak değil, küçük araçları anlamlı biçimde bir araya getirmektir.
+
+<!-- part0-altnav -->
+
+---
+
+← [04 · Dosya içeriğini okumak](04-dosya-icerigini-okumak.md) · [Part 0 içindekiler](README.md) · [06 · Dosya adları ve türleri](06-dosya-adlari-ve-turleri.md) →

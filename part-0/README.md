@@ -1,6 +1,8 @@
 # Part 0 — Linux / Terminal Temelleri
 
-📖 Medium yazısı: [Sıfırdan Linux ve Siber Güvenlik Uygulamalı Öğrenme Rehberi — Part 0](https://medium.com/p/b0ad03a4fdf0)
+[Başlangıç](../README.md)
+
+Bandit'e girmeden önce ihtiyacımız olan komut satırı temelleri. Doğrudan Bandit seviyelerine atlamak yerine önce zemini kurarız: `pwd`, `ls`, `cat`, `grep`, `find`, SSH ve dosya izinleri gibi kavramlarla ilk kez burada, sakin bir ortamda tanışırız. Sayfaları sırayla okumak en verimlisidir; her sayfanın altında önceki/sonraki bağlantısı vardır.
 
 ## Bölümler
 
@@ -18,9 +20,9 @@
 | 09 | [SSH](09-ssh.md) | host key onayı, bağlantı hataları, `exit` |
 | 10 | [Yardım ve hata mesajları](10-yardim-ve-hata-mesajlari.md) | `man`, `help`, `--help`, `type`, hata mesajları sözlüğü |
 
-## Düşünce döngüsünün ayrıntılı hâli
+## Terminalde düşünme döngüsü
 
-Medium yazısının sonunda tek bir döngüye indirdiğimiz yaklaşımın açık hâli. Bütün bu araçların ortak bir noktası var: terminalde çalışırken genellikle önce problemi parçalara ayırıyoruz.
+Part 0'daki araçların hepsinin ortak bir mantığı var: terminalde çalışırken genellikle önce problemi parçalara ayırıyoruz. Bu bölümdeki komutları öğrendikten sonra aşağıdaki akışlar tanıdık gelecek.
 
 Elimizde adı belli olmayan bir dosya varsa:
 
@@ -87,3 +89,7 @@ Her biri, ilgili sayfayı okuduktan sonra kendi terminalimizde denenmek için. �
 8. **(07)** Kendi oluşturduğumuz bir dosyanın izinlerini okuyalım; sahibe çalıştırma izni verip farkı `ls -l` ile görelim.
 9. **(08)** `/etc` altında adında `ssh` geçen dizinleri, hata mesajları görünmeden bulalım.
 10. **(10)** `cd`, `ls` ve `echo` için hangisine `help`, hangisine `man` ile bakmamız gerektiğini `type` ile belirleyelim.
+
+---
+
+[Başlangıç](../README.md) · [00 · Ortam kurulumu](00-ortam-kurulumu.md) →

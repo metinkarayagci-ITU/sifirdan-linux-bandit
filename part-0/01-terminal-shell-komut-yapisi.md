@@ -1,6 +1,6 @@
 # 01 · Terminal, shell ve komut yapısı
 
-⬅ Medium'daki bölüm: **Terminal, shell ve bir komutun yapısı** · [Part 0 içindekiler](README.md)
+[Başlangıç](../README.md) · [Part 0 içindekiler](README.md)
 
 ## Terminal neden?
 
@@ -65,3 +65,9 @@ Ctrl+A     → satırın başına gider
 Ctrl+E     → satırın sonuna gider
 history    → daha önce yazdığımız komutları listeler
 ```
+
+<!-- part0-altnav -->
+
+---
+
+← [00 · Ortam kurulumu](00-ortam-kurulumu.md) · [Part 0 içindekiler](README.md) · [02 · Dosya sistemi ve gezinme](02-dosya-sistemi-ve-gezinme.md) →

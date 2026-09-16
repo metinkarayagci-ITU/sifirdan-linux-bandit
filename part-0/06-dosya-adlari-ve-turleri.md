@@ -1,6 +1,6 @@
 # 06 · Dosya adları ve türleri
 
-⬅ Medium'daki bölüm: **Dosya adları ve türleri** · [Part 0 içindekiler](README.md)
+[Başlangıç](../README.md) · [Part 0 içindekiler](README.md)
 
 ## Boşluk içeren adlar
 
@@ -95,3 +95,9 @@ reset
 ```
 
 terminali toparlar. Önce `file` ile bakmak bu durumu baştan önler.
+
+<!-- part0-altnav -->
+
+---
+
+← [05 · Akışlar, pipe ve yönlendirme](05-akislar-pipe-yonlendirme.md) · [Part 0 içindekiler](README.md) · [07 · İzinler](07-izinler.md) →
