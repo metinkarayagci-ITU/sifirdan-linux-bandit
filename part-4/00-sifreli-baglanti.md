@@ -26,6 +26,8 @@ Correct!
 
 Servis parolayı doğrulayınca `Correct!` der ve `bandit16`'nın parolasını gönderir.
 
+![openssl s_client ile şifreli porta parola göndermek](img/00-openssl.png)
+
 ## Perde arkası
 
 Bugün internetteki servislerin büyük çoğunluğu şifreli konuşur (HTTPS'in "S"si tam da budur). `openssl s_client`, bir TLS servisiyle **elle** konuşmanın standart aracıdır: sertifikayı incelemek, desteklenen protokolleri görmek ya da bu örnekteki gibi şifreli bir kanaldan veri alışverişi yapmak için. `nc`'nin yaptığını yapar, üstüne şifreleme katmanını ekler. "Servis düz mü, şifreli mi konuşuyor?" sorusu bir sonraki adımın tam merkezinde.

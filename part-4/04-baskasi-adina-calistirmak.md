@@ -36,6 +36,8 @@ $ ./bandit20-do cat /etc/bandit_pass/bandit20
 
 `bandit19` olduğumuz hâlde, `bandit20-do` sayesinde `bandit20`'nin okuyabildiği dosyayı okuduk.
 
+![setuid bandit20-do komutu bandit20 kimliğiyle çalıştırır](img/04-setuid.png)
+
 ## Perde arkası
 
 Setuid, Linux'ta **yetki yükseltmenin** (privilege escalation) temel mekanizmalarından biridir — ve tam da bu yüzden güvenlikte iki yüzü vardır. Meşru kullanımı vardır (`passwd` komutu, parolanı değiştirmek için setuid'le root yetkisi kullanır). Ama kötü yazılmış bir setuid programı, saldırgana sahibinin (çoğu zaman root'un) yetkilerini açan bir kapıya dönüşür. Bir sistemi incelerken "hangi setuid programları var ve ne yapıyor?" sorusu, yetki yükseltme avının ilk adımıdır. Sonraki seviyede tam da böyle bir programın **kötü tasarımını** kullanacağız.

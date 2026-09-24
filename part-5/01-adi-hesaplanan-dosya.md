@@ -34,6 +34,8 @@ $ cat /tmp/‹hesaplanan dosya adı›
 ‹bandit23 parolası›
 ```
 
+![betikteki md5 hesabını elle tekrarlayıp hedef dosyayı buluruz](img/01-md5.png)
+
 ## Perde arkası
 
 Buradaki asıl beceri, **bir betiği okuyup ne yaptığını çözebilmek** ve onun bir parçasını kendin yeniden üretmek. Betiğin dosya adını "gizlediği" düşünülebilir, ama gizlilik bir hesap gizli olduğu için değil, sadece o hesabı yapmadığın için var; hesabı gördüğün an sır kalmıyor. Bu, "kod okuma" becerisinin ilk somut sınavı — ki güvenlikte belki de en değerli beceridir. Dikkat edilecek incelik: betik hangi kullanıcı olarak çalışıyor? Adı ona göre hesapla.

@@ -22,6 +22,8 @@ The password to the next level is: ‹bandit28 parolası›
 
 `git clone <adres>`, uzak depoyu tüm geçmişiyle birlikte yerele kopyalar. Parola sorulunca `bandit27`'nin parolasını gireriz (SSH parola girişinde olduğu gibi ekranda görünmez). Bu ilk depoda parola doğrudan `README` içinde.
 
+![git clone depoyu indirir; ilk depoda parola README'de](img/00-clone.png)
+
 ## Perde arkası
 
 Git, yazılım geliştirmenin merkezindeki **sürüm kontrol** sistemidir; bir projenin bütün geçmişini saklar. Bir depoyu klonlamak sadece "son hâli" indirmek değildir — **tüm tarihçeyi** getirir. Bu part'ın bütün fikri bu ayrıntıda gizli: bir deponun görünen son hâlinde bir şey olmasa bile, geçmişinde, dallarında ya da etiketlerinde saklı kalmış olabilir. İlk adımda parola apaçık ortada; sonraki adımlarda onu geçmişin içinde aramayı öğreneceğiz.

@@ -40,6 +40,8 @@ remote: ‹bandit32 parolası›
 
 Push tamamlanınca sunucunun kancası (hook) doğru dosyayı görür ve yanıt olarak `bandit32`'nin parolasını döner.
 
+![git add -f + push; sunucu kancası parolayı döner](img/04-push.png)
+
 ## Perde arkası
 
 Bu adımda Git'in okuma dışındaki tarafını gördük: `add` → `commit` → `push` döngüsü, günlük geliştirmenin belkemiğidir. İki öğretici ayrıntı var: (1) `git push`, yerel değişiklikleri uzak depoya gönderir ve burada sunucu tarafındaki bir **kanca** (hook) o push'a tepki verir — otomasyonun yaygın bir kalıbı; (2) `.gitignore` bir dosyayı yok saydığında `git add -f` ile zorlamak gerekir. "Neden eklenmiyor?" sorusunun cevabı çoğu zaman `.gitignore`'dur; bunu bilmek çok zaman kazandırır.

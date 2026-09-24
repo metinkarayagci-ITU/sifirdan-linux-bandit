@@ -20,6 +20,8 @@ The password is ‹bandit11 parolası›
 
 Kodlama açılınca cümle okunur hâle gelir ve parola içinde görünür.
 
+![base64 -d kodlamayı açınca cümle okunur hâle geliyor](img/01-base64.png)
+
 ## Perde arkası
 
 Base64'ü "şifre" ile karıştırmamak önemli: bir anahtar gerektirmez, herkes çözebilir. Amacı gizlemek değil, e-posta ekleri, veri URL'leri ya da HTTP başlıkları gibi yalnız metin kabul eden kanallardan ikili veriyi güvenle **geçirmektir.** Güvenlikte sık karşına çıkar; bir jetonun (token) ya da yapılandırmanın "şifreli" sanılıp aslında sadece Base64 olduğunu tanımak, ilk bakışta çözülen birçok bulmacanın anahtarıdır. `=` ile biten metin gördüğünde ilk denenecek şey `base64 -d`.

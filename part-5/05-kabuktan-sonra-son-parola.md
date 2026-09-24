@@ -23,6 +23,8 @@ $ ./bandit27-do cat /etc/bandit_pass/bandit27
 ‹bandit27 parolası›
 ```
 
+![bandit27-do ile bandit27 parolasını okuruz](img/05-bandit27do.png)
+
 ## Perde arkası
 
 Bu iki adım birlikte güzel bir örüntü oluşturur: önce kısıtlı kabuktan **kaçış** (Part 5 · 04), sonra elde edilen kabukta bir setuid programıyla **yetki yükseltme**. Gerçek saldırılar da çoğu zaman böyle zincirlenir — tek bir sihirli komut değil, birbirini besleyen küçük adımlar: bir yere gir, oradan biraz daha yetki al, o yetkiyle bir sonraki kapıyı aç. `bandit20-do`'yu bir kez anladıysan, `bandit27-do` sürpriz değil; aynı kavramın tekrarı, bilerek koyulmuş bir pekiştirme.

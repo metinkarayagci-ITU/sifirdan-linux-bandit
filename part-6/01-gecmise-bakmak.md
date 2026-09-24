@@ -36,6 +36,8 @@ commit ...
 
 "fix info leak" (bilgi sızıntısını düzelt) başlıklı commit tam da aradığımızı ele verir: parolayı `xxxxxxxxxx` ile değiştirmiş. Diff'te `-` ile başlayan satır, **silinmeden önceki** hâldir — yani gerçek parola orada.
 
+![git log -p, 'fix info leak' commit'inde silinmeden önceki parolayı gösterir](img/01-log.png)
+
 ## Perde arkası
 
 Buradaki ders, güvenlikte çok pahalıya patlayan bir gerçektir: **Git bir şeyi geçmişten silmek, onu yok etmez.** Bir parolayı, API anahtarını ya da gizli bir dosyayı yanlışlıkla depoya ekleyip sonra "silen" bir commit atmak, sırrı korumaz — tarihçeye bakan herkes onu görür. Gerçek dünyada sızan sayısız kimlik bilgisi tam olarak böyle bulunur: `git log` ile geçmişi taramak. Bir depoyu incelerken son hâle bakmak yetmez; tarihçe asıl hikâyeyi anlatır.

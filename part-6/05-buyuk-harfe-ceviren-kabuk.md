@@ -32,6 +32,8 @@ $ cat /etc/bandit_pass/bandit33
 
 `$0`'ı çalıştırınca istem `>>`'ten normal `$`'a döner: artık büyük harfe çevrilmeyen gerçek bir kabuktayız. Parolayı okuruz.
 
+![$0 harf içermez → büyük-harf filtresini atlayıp normal kabuk açar](img/05-uppershell.png)
+
 ## Perde arkası
 
 Bu, serinin ikinci kısıtlı-kabuk kaçışı ve belki en zarifi. Fikir şu: bir filtre (burada "büyük harfe çevir") yalnız belirli girdileri bozuyorsa, o filtreden **bozulmadan geçen** bir ifade ararsın. `$0` harf içermediği için filtreyi atlar, üstelik doğrudan yeni bir kabuk açar. Bu tür "girdi dönüşümünü atlatma" düşüncesi, güvenliğin merkezindedir — bir sistemin girdiyi nasıl işlediğini anlayıp, o işlemenin dokunmadığı bir yol bulmak. Part 1'deki "komut bu metni nasıl yorumluyor?" sorusunun en ileri hâli budur.

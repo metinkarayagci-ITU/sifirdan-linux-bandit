@@ -28,6 +28,8 @@ $ ssh bandit18@bandit.labs.overthewire.org -p 2220 cat readme
 
 Buradaki fark kritik: `ssh ... cat readme`, sunucuda etkileşimli bir oturum başlatmaz; sadece `cat readme`'yi çalıştırıp çıktısını bize gösterir ve kapanır. `.bashrc`'nin interaktif kabuğa eklediği `exit` devreye girmeden parolayı okumuş oluruz.
 
+![ssh'a komut eklemek interaktif kabuğu (ve .bashrc'yi) baypas eder](img/03-ssh-komut.png)
+
 ## Perde arkası
 
 Buradaki ders, SSH'ın iki farklı çalışma biçimi olduğunu görmek: **interaktif** (bir kabuk açar, sen komut yazarsın) ve **komut çalıştırma** (verdiğin tek komutu koşturup çıkar). Bir giriş betiği (`.bashrc`, `.profile`) yolunu kesiyorsa, ikinci biçim onu baypas etmenin yoludur. Aynı fikir, betiklerde ve otomasyonda "uzak makinede tek bir komut çalıştır" derken de kullanılır — interaktif kabuğun yükü ve tuzakları olmadan.

@@ -43,6 +43,8 @@ $ cat /tmp/is24/parola
 ‹bandit24 parolası›
 ```
 
+![kendi betiğimizi foo klasörüne koyarız; cron onu bandit24 olarak koşturur](img/02-kendi-betik.png)
+
 ## Perde arkası
 
 Bu, ilk "kendi kodunu çalıştırt" bulmacan — ve yetki yükseltmenin çok yaygın bir örüntüsü. Bir sistem, senin kontrol ettiğin bir dosyayı **daha yetkili biri** olarak çalıştırıyorsa, o dosyaya koyduğun her şey o yetkiyle koşar. Buradaki incelikler öğreticidir: çıktı klasörünü herkesin yazabileceği izinle (`777`) açmak gerekir, çünkü betiği `bandit24` çalıştırır ve dosyayı oraya *o* yazar; ayrıca betik çalıştıktan sonra silineceği için çıktıyı kalıcı bir yere yazmak gerekir. Kendi kodunu başka bir kimliğe koşturtmak, gerçek dünyadaki birçok saldırının özüdür.

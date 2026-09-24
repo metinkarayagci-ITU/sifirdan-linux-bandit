@@ -24,6 +24,8 @@ $ diff passwords.old passwords.new
 
 Bize gereken, `passwords.new`'daki yani `>` ile işaretli satır — aradığımız parola.
 
+![diff, değişen tek satırı (>) getirir](img/02-diff.png)
+
 ## Perde arkası
 
 `diff`, iki metin arasındaki değişikliği bulmanın standart aracıdır ve çok geniş bir alanda karşına çıkar: bir yapılandırma dosyasının önce/sonra hâlini karşılaştırmaktan, sürüm kontrol sistemlerinin (Git gibi) çalışma temeline kadar. Buradaki fikir basit ama güçlü: "neyin değiştiğini" bulmak, çoğu zaman "her şeye tek tek bakmaktan" çok daha hızlı yol açar. İki durumun farkına odaklanmak, hata ayıklamadan güvenlik incelemesine kadar tekrar tekrar işine yarar.

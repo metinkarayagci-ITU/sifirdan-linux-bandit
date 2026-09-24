@@ -26,6 +26,8 @@ $ git show secret
 
 Etiketin işaret ettiği içerikte parola açıkça duruyor.
 
+![README boş; parola 'secret' etiketinde saklı](img/03-tag.png)
+
 ## Perde arkası
 
 Bu adım, Part 6'nın büyük dersini tamamlar: bir Git deposunda bilgi **birçok yerde** saklı olabilir — çalışma ağacında (dosyalar), geçmişte (commit'ler), dallarda (branch) ve etiketlerde (tag). Deponun görünen yüzü boşsa bile bunlardan biri dolu olabilir. Bir depoyu tam olarak incelemek demek, dördüne birden bakmak demektir: `ls`/`cat`, `git log`, `git branch -a`, `git tag`. "Boş görünüyor" ile "boş" arasındaki farkı Part 1'de gizli dosyalarla öğrenmiştik; Git'te de aynı fikir geçerli, sadece saklanacak köşe daha çok.

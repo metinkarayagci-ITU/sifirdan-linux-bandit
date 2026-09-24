@@ -19,6 +19,8 @@ Correct!
 
 Servis parolayı doğru bulunca `Correct!` der ve `bandit15`'in parolasını geri yollar.
 
+![parolayı 30000 portuna nc ile gönderince sonraki parola döner](img/05-nc.png)
+
 ## Perde arkası
 
 `nc`, bir porta ham veri göndermenin ve o porttaki servisin ne konuştuğunu görmenin en doğrudan yoludur. Bir web sunucusuna elle HTTP isteği yollamaktan, açık bir portu yoklamaya kadar sayısız işte karşına çıkar. Buradaki kavramsal sıçrama şu: bir bilgisayardaki "servisler" birer **port** üzerinden dinler; doğru portu bulup doğru veriyi gönderirsen onunla konuşabilirsin. Sonraki seviyelerde aynı fikri şifreli bağlantılarla (SSL/TLS) tekrar göreceğiz.

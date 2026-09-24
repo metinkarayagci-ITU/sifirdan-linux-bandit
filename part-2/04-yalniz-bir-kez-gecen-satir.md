@@ -20,6 +20,8 @@ $ sort data.txt | uniq -u
 
 Sonuç tek satır: aradığımız parola.
 
+![sort | uniq -u yalnız bir kez geçen satırı getiriyor](img/04-uniq.png)
+
 ## Perde arkası
 
 Buradaki asıl fikir, iki küçük aracı zincirleyerek tek başlarına yapamadıkları bir işi yaptırmak. `sort` "düzene sok", `uniq` "tekrarları ele"; pipe (`|`) ise birinin çıktısını ötekinin girdisine bağlar. Unix felsefesinin özü budur: her araç bir işi iyi yapar, gücü birleşmelerinden doğar. `sort | uniq` ikilisi, veri temizlemenin ve tekrar analizinin en klasik kalıbıdır.

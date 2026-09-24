@@ -29,6 +29,8 @@ $ git show remotes/origin/dev
 
 `dev` dalının `README.md`'sinde, ana dalda gizlenen parola açıkça duruyor. Dala geçmek istersek `git checkout dev` de yapabilirdik.
 
+![git branch -a gizli dev dalını, git show onun içeriğini açar](img/02-branch.png)
+
 ## Perde arkası
 
 Buradaki ders şu: bir deponun "gösterdiği" tek bir dal olabilir ama **hepsi orada.** Geliştiriciler çoğu zaman deneme, geliştirme ya da eski çalışmaları ayrı dallarda tutar; bunlar üretim dalında görünmese de klonladığında hepsi sana gelir. Güvenlik incelemesinde `git branch -a` refleks olmalı — çünkü bir sır ana dalda temizlenmiş olsa bile unutulmuş bir `dev` ya da `feature` dalında durabilir. "Ana dalda yoksa, diğer dallara bak" kuralı bir öncekinin (geçmişe bak) kardeşidir.

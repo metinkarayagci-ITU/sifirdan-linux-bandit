@@ -44,6 +44,8 @@ $ cat ./-file07
 ‹bandit5 parolası›
 ```
 
+![`file ./*` çıktısında yalnız -file07 'ASCII text'; onu okuyunca parola çıkar](img/00-file.png)
+
 ## Perde arkası
 
 `file`, bir dosyanın adına ya da uzantısına değil, **içindeki ilk baytlara** (sihirli sayı — *magic number*) bakarak tür tahmini yapar. Bu yüzden uzantısız dosyalarda bile işe yarar ve güvenlikte "bu dosya gerçekten iddia ettiği şey mi?" sorusunun ilk aracıdır. Bulduğumuz parolayla `bandit5`'e geçeriz.

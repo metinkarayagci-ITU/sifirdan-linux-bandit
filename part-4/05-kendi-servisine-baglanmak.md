@@ -32,6 +32,8 @@ Password matches, sending next password
 - `&` → bu işi arka plana atar, terminal bize geri döner,
 - `./suconnect 1337` → programı o porta bağlar; parola eşleşince `bandit21`'in parolasını basar.
 
+![nc -l ile dinleyen tarafı kurup suconnect'i ona bağlarız](img/05-suconnect.png)
+
 ## Perde arkası
 
 Buradaki kavramsal sıçrama, ağ iletişiminin **iki tarafı** olduğunu somut olarak görmek: bir **dinleyen** (server, `nc -l`), bir de **bağlanan** (client, `suconnect`). Şimdiye kadar hep bağlanan taraftık; burada ilk kez bir servisi **biz kurduk.** Aynı zamanda iş kontrolüyle (`&`, arka plan) iki işi tek terminalde eşzamanlı yürütmeyi kullandık — `screen` ya da `tmux` da benzer işi görür. "Programın beklediği tarafı kendim sağlarım" düşüncesi, ağ güvenliğinde tekrar tekrar karşına çıkar.

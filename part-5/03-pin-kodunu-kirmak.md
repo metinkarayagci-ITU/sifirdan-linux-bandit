@@ -36,6 +36,8 @@ The password of user bandit25 is ‹bandit25 parolası›
 
 Doğru pin gelince servis `Correct!` der ve `bandit25`'in parolasını basar. Yanlış denemelerin arasından doğru satırı ayıklamak için çıktıyı `grep -v Wrong` ile de süzebiliriz.
 
+![10.000 pin denemesi tek nc bağlantısından akıtılır](img/03-brute.png)
+
 ## Perde arkası
 
 Kaba kuvvet, olasılık uzayı **yeterince küçük** olduğunda geçerli bir yöntemdir — burada yalnız 10.000 ihtimal var. Asıl ders, servisin tasarımındaki iki noktayı fark etmek: (1) deneme sayısını sınırlamaması (rate limiting yok), (2) aynı bağlantıda binlerce denemeye izin vermesi. Gerçek sistemlerde bu ikisi tam da kaba kuvvete karşı konan savunmalardır; yokluğu, dört haneli bir pini saniyeler içinde kırılabilir kılar. Bir kabuk döngüsüyle (`for`) binlerce girdi üretip bir servise akıtmak, otomasyonun günlük bir aracıdır.

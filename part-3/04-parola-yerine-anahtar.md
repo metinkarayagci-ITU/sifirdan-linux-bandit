@@ -37,6 +37,8 @@ $ cat /etc/bandit_pass/bandit14
 ‹bandit14 parolası›
 ```
 
+![özel anahtarla ssh -i girişi, sonra kendi parola dosyamızı okuruz](img/04-sshkey.png)
+
 ## Perde arkası
 
 SSH anahtar tabanlı kimlik doğrulama, sunucu yönetiminde parolaların yerini alan standart yöntemdir: parola ağda hiç dolaşmaz, anahtar çalınmadıkça güvenlidir. Buradaki iki ders güvenlikte kritiktir: (1) sızılan bir sistemde bulunan bir özel anahtar, başka makinelere açılan bir kapıdır; (2) SSH'ın izinlere titizliği bir kapris değil, güvenlik önlemidir — herkesin okuyabildiği bir özel anahtar zaten güvensizdir.

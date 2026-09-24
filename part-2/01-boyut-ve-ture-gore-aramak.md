@@ -33,6 +33,8 @@ $ cat ./maybehere07/.file2
 ‹bandit6 parolası›
 ```
 
+![find, üç koşulu birleştirip tek dosyayı buluyor](img/01-find-size.png)
+
 ## Perde arkası
 
 `find`'ın gücü, koşulları **birleştirebilmesinden** gelir: yan yana yazılan koşullar "ve" (VE) anlamına gelir, `!` ise olumsuzlar. Bir hedefi kelimelerle tarif edebiliyorsan (`şu boyutta, şu izinde, şu tür`), onu neredeyse birebir `find` seçeneklerine çevirebilirsin. Bu, "aradığımı nasıl bir sorguya dökerim?" alışkanlığının ilk adımı.

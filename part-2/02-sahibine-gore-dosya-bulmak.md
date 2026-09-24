@@ -40,6 +40,8 @@ $ cat /var/lib/dpkg/info/bandit7.password
 ‹bandit7 parolası›
 ```
 
+![find / ile sahibine göre arama; 2>/dev/null hata gürültüsünü siler](img/02-find-owner.png)
+
 ## Perde arkası
 
 Buradaki iki ders güvenlikte sürekli işe yarar: (1) bir dosyayı **kim'e ait olduğuyla** aramak, sistemde "bu kullanıcının bıraktığı izler nerede?" sorusunun tam karşılığıdır; (2) `2>/dev/null` ile *stdout* ve *stderr*'i ayırmak, uzun taramalarda sinyali gürültüden ayırmanın standart yoludur. "İzin reddedildi" satırları başarısızlık değil — sadece bakamadığımız kapılar.

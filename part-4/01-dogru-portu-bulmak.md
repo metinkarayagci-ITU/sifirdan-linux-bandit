@@ -45,6 +45,8 @@ Bu anahtarı bir dosyaya kaydeder (`/tmp` altında), izinlerini `chmod 600` ile 
 $ ssh -i /tmp/bandit17.key bandit17@localhost -p 2220
 ```
 
+![nmap açık portları bulur; doğru SSL portu anahtar döner](img/01-nmap.png)
+
 ## Perde arkası
 
 Bu seviye, bir saldırının küçük bir provası gibidir: **keşif** (hangi portlar açık?), **parmak izi çıkarma** (bu port ne konuşuyor?), sonra **erişim** (doğru veriyi doğru servise gönder). `nmap` keşfin, `openssl s_client` parmak izinin standart araçlarıdır. Gerçek dünyada bir sisteme bakarken de sıralama aynıdır: önce ne açık, sonra ne konuşuyor, sonra nasıl konuşulur.

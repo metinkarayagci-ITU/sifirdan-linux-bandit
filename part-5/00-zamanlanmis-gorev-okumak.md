@@ -32,6 +32,8 @@ $ cat /tmp/‹dosya adı›
 ‹bandit22 parolası›
 ```
 
+![cron tanımı → betik → betiğin yazdığı /tmp dosyası](img/00-cron.png)
+
 ## Perde arkası
 
 Bu seviyenin dersi, bir sistemde **otomatik çalışan işleri** incelemenin önemidir. Zamanlanmış görevler çoğu zaman gözden kaçar ama sistemin "arka planda ne yaptığını" anlatır — ve kötü yapılandırılmış bir cron job (örneğin bir parolayı herkesin okuyabileceği bir yere yazmak) doğrudan bir açığa dönüşür. Bir makineyi incelerken `/etc/cron.d/`, `/etc/crontab` ve kullanıcı crontab'larına bakmak rutin bir adımdır.

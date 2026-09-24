@@ -22,6 +22,8 @@ millionth	‹bandit8 parolası›
 
 Tek satır. `grep`, `data.txt` içindeki on binlerce satırdan yalnızca `millionth` geçenini getirdi; parola hemen yanında, bir sekme (Tab) ile ayrılmış. Doğrudan `bandit8`'e geçmek için parolayı buradan alırız.
 
+![98 binden fazla satır arasından grep tek satırı süzüyor](img/03-grep.png)
+
 ## Perde arkası
 
 `grep`, büyük veriyle çalışmanın en temel refleksidir: "hepsine bakma, aradığını süz." Aynı komut bir günlük (log) dosyasında bir hata mesajını, bir yapılandırma dosyasında bir ayarı ya da bir kod tabanında bir fonksiyonu bulmak için birebir aynı şekilde kullanılır. Dosya büyüdükçe `grep`'in değeri artar — gözle tarama ölçeklenmez, süzme ölçeklenir.

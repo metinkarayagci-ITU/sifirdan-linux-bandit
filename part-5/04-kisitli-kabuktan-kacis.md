@@ -36,6 +36,8 @@ Bu bekleme anında `more`'un içinden `v` tuşuna basarız — bu, `more`'u `vi`
 
 Artık `bandit26` kimliğiyle gerçek bir bash kabuğundayız.
 
+![showtext = more; küçük pencerede 'v' → vi → :shell ile kabuk](img/04-vi-kacis.png)
+
 ## Perde arkası
 
 Bu, bir **kısıtlı kabuktan kaçış** (restricted shell escape) örneğidir — güvenlikte klasik bir konu. Fikir şu: sana tam bir kabuk yerine sınırlı bir program (burada `more`) verilmişse, o programın **başka programları çağırabildiği** her nokta bir kaçış fırsatıdır. `more`, `less`, `vi`, `man` gibi araçların hepsi içlerinden komut/kabuk çalıştırabilir; kısıtlı ortamlar bu yüzden dikkatle kapatılmalıdır. Pencereyi küçültüp `more`'u durmaya zorlamak da güzel bir ayrıntı: bir aracın davranışını, ona verilen ortamı (terminal boyutu) değiştirerek yönlendirdik.

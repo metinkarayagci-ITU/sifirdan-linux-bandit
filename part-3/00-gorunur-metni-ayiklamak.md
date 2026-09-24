@@ -28,6 +28,8 @@ $ strings data.txt | grep "=="
 
 Çıktıdaki son satırda, `=` dizisinin ardından parola görünür.
 
+![strings ile ikiliden ayıklanan '==' satırlarında parola](img/00-strings.png)
+
 ## Perde arkası
 
 `strings`, adli bilişimin (forensics) ilk araçlarından biridir: bir çalıştırılabilir dosyanın, bellek dökümünün ya da bilinmeyen bir dosyanın içinde gizli URL'ler, mesajlar veya parolalar aramak için kullanılır. "İkili görünüyor ama içinde metin de olabilir" sezgisi burada devreye girer. `grep` ile birleşince, gürültünün içinden aradığın kalıba tek adımda inersin.

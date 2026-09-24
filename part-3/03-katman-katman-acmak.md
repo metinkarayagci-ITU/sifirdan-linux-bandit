@@ -42,6 +42,8 @@ The password is ‹bandit13 parolası›
 
 Her tür kendi aracıyla açılır: `gunzip` (gzip), `bunzip2` (bzip2), `tar xf` (tar arşivi). Sekiz-dokuz katman sonra `file` nihayet `ASCII text` dediğinde parolaya ulaşırız.
 
+![file ile tür sor, uygun araçla aç, tekrarla — katman katman](img/03-decompress.png)
+
 ## Perde arkası
 
 Buradaki fikir tek bir komut değil, bir **yöntem**: "ne olduğunu bilmiyorsan, önce `file` ile sor, sonra uygun araçla bir katman aç, sonra tekrar sor." Bu döngü, bilinmeyen bir dosyayı çözerken körlemesine deneme yapmaktan çok daha hızlıdır. Ayrıca `/tmp` altında geçici klasörle çalışmak, dağınık işleri temiz tutmanın standart alışkanlığıdır. (Tekrarlı türleri gözünle takip etmek istersen `file` çıktısını her adımda okumak yeterli; ismi tahmin edilmesin diye `mktemp -d` ile rastgele klasör de kullanılabilir.)
