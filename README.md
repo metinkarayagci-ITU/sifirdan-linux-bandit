@@ -26,11 +26,11 @@ Her sayfa küçük ve tek konuludur; sırayla okunacak biçimde birbirine bağl�
 |---|---|---|
 | **0** | [Linux / Terminal Temelleri](part-0/README.md) | hazır |
 | **1** | [Bandit Level 0–4](part-1/README.md) | hazır |
-| 2 | Bandit Level 5–9 | — |
-| 3 | Bandit Level 10–15 | — |
-| 4 | Bandit Level 16–21 | — |
-| 5 | Bandit Level 22–27 | — |
-| 6 | Bandit Level 28–33 | — |
+| **2** | [Bandit Level 5–9](part-2/README.md) | hazır |
+| **3** | [Bandit Level 10–15](part-3/README.md) | hazır |
+| **4** | [Bandit Level 16–21](part-4/README.md) | hazır |
+| **5** | [Bandit Level 22–27](part-5/README.md) | hazır |
+| **6** | [Bandit Level 28–33](part-6/README.md) | hazır |
 
 ## Örnekler hakkında
 
