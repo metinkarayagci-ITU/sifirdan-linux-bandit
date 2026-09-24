@@ -34,6 +34,8 @@ $ cat .hidden
 PAROLA_BURADA
 ```
 
+![önce boş görünen ls, sonra ls -a gizli dosyayı gösteriyor](img/04-hidden.png)
+
 ## Perde arkası
 
 `.` ile başlayan adların gizli sayılması bir dosya sistemi kuralı değil, `ls` gibi araçların bir davranışıdır: baştaki noktayı görünce dosyayı varsayılan listede atlarlar. `-a` (`--all`) bu filtreyi kapatır. Grafik arayüzlerdeki "gizli dosyaları göster" seçeneği de tam olarak bunu yapar.

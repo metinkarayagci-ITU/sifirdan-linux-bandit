@@ -30,6 +30,8 @@ bandit0@bandit:~$
 
 Artık uzak sunucudayız. Emin olmak istersek `whoami` bize `bandit0`, `pwd` ise ev dizinimizi gösterir. Oturumu kapatıp kendi makinemize dönmek için `exit` yazarız.
 
+![SSH ile bağlanma ve whoami doğrulaması](img/00-connect.png)
+
 ## Sırada
 
 Bağlandık; şimdi bir sonraki seviyenin parolasını bulmamız gerekiyor. O da ev dizinimizdeki bir dosyada duruyor.
